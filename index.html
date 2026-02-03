@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- If you are using VSCode, you can type "!" and click enter to autogenerate the default HTML setup -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title will update the words that show up on your tab, try it! -->
+    <title>I Love CSA</title>
+    <!-- Import your style sheet -->
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Code goes here in body! Since we will be adding content to the "body" of the page -->
+<body>
+    <!-- A div allows you to group information that belongs together into a group. -->
+    <!-- This is useful when you would like to add styling to a specific component (more on this soon) -->
+    <div class="container">
+
+        <!-- Code for the search INPUT view goes here... -->
+        <div class="searchContainer">
+            <!-- Like Google Docs, HTML has built-in headings ranging from h1 to h6, decreasing in size. -->
+            <h1>This is a heading.</h1>
+            <!-- In order to get information from the user, we must take their input (think Python's input() function)... -->
+            <input
+            class="inputField"
+            id="cityField"
+            placeholder="Enter a city name..."
+            type="text"
+            />
+            <!-- When a button is pressed, it can tell our script.js file that an update has happened (input should be checked) -->
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <!-- Try on own: Code for the search OUTPUT goes here... -->
+        <div id="weatherContainer">
+            <!-- An id allows you to reference content from your html to your script.js file. -->
+            <!-- This is useful for content that will change based on information we get from the API -->
+            <!-- An id can be applied to any type of tag, such as a <p> or a <h1> tag. -->
+
+            <!-- City Name -->
+            <h2 id="cityName"></h2>
+            <!-- Temperature -->
+            <p id="temperature"></p>
+            <!-- Condition -->
+            <p id="condition"></p>
+            <!-- Wind Speed -->
+            <p id="windSpeed"></p>
+        </div>
+
+        <!-- Error handling goes here! What will we display when the API doesn't fetch anything? -->
+        <p id="errorMessage"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

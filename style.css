@@ -1,0 +1,88 @@
+/* For styling, the names we use often follow "camel case" rather than "snake case" (which is used in Python like_this) */
+/* Camel case is when you concatenate words by capitalizing each word that follows the first, like a camel hump (likeThis). */
+
+/* A star "*" will set a style GLOBALLY, so be careful */
+* {
+    /* set a font */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Putting the name of a built-in tag (for example, h1) by itself and followed by curly braces allows you to change what that tag does globally */
+/* We don't do that in this tutorial, but this is something you can experiment with. */
+
+/* A period "." at the start of the name indicates that it is a style that can be applied to content, allowing for reusability */
+.container {
+    /* adjust width */
+    max-width: 400px;
+    
+    /* set background */
+    background: white;
+
+    /* add padding */
+    padding: 20px;
+
+    /* add border radius */
+    border-radius: 10px;
+
+    /* add box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    /* add margin */
+    margin: auto;
+
+}
+
+.searchContainer {
+    /* add margin */
+    margin: 20px;
+
+    /* align text to the center */
+    text-align: center;
+}
+
+.inputField {
+    /* add padding */
+    padding: 10px;
+
+    /* add width */
+    width: 70%;
+    
+    /* add border */
+    border: 1px solid #ccc;
+
+    /* add border radius */
+    border-radius: 5px;
+}
+
+/* A hashtag "#" at the start of the name indicates that the styling will be applied to the content that has this specific id */
+#searchBtn {
+    /* add padding */
+    padding: 10px;
+
+    /* add background */
+    background: palevioletred;
+
+    /* add text color */
+    color:white;
+
+    /* add border (remove it) */
+    border: none;
+
+    /* add cursor type */
+    cursor: pointer;
+
+    /* add border radius */
+    border-radius: 5px;
+}
+
+#weatherContainer {
+    display: none;
+
+    /* align text to the center */
+    text-align: center;
+}
+
+#errorMessage {
+    color: red;
+    font-weight: bold;
+}
