@@ -37,49 +37,42 @@
     margin: 20px;
 
     /* align text to the center */
-    text-align: center;
+
 }
 
 .inputField {
     /* add padding */
-    padding: 10px;
 
     /* add width */
     width: 70%;
     
     /* add border */
-    border: 1px solid #ccc;
 
     /* add border radius */
-    border-radius: 5px;
 }
 
 /* A hashtag "#" at the start of the name indicates that the styling will be applied to the content that has this specific id */
 #searchBtn {
     /* add padding */
-    padding: 10px;
 
     /* add background */
-    background: palevioletred;
 
     /* add text color */
-    color:white;
 
     /* add border (remove it) */
-    border: none;
 
     /* add cursor type */
     cursor: pointer;
 
     /* add border radius */
-    border-radius: 5px;
 }
 
 #weatherContainer {
+    /* ensure nothing is displayed when nothing is searched */
     display: none;
 
     /* align text to the center */
-    text-align: center;
+
 }
 
 #errorMessage {
