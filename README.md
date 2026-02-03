@@ -2,7 +2,7 @@
 Hello! Learn basic HTML, CSS, and Javascript with this tutorial!
 
 ## Details
-IF YOU HAVE A GITHUB ACCOUNT...
+**IF YOU HAVE A GITHUB ACCOUNT...**
 ```
 git clone https://github.com/jploia/CSA-Weather-App-Demo.git <NAME OF FILE>
 ```
@@ -12,7 +12,7 @@ git clone https://github.com/jploia/CSA-Weather-App-Demo.git weatherApp
 ```
 This file will be in the directory you are currently in (likely your user directory). You can see what directory you're in from your terminal.
 
-IF YOU DON'T HAVE A GITHUB ACCOUNT...
+**IF YOU DON'T HAVE A GITHUB ACCOUNT...**
 1. Create and name a folder in the directory of your choice (for example, go into Documents).
 2. Click on the folder twice to open it.
 3. In the folder, you will create three new files: 
