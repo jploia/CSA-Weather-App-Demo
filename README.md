@@ -1,5 +1,6 @@
 # Cognitive Science Association Web Development Workshop 🧠💖
 Hello! Learn basic HTML, CSS, and Javascript with this tutorial!
+<img width="1008" height="591" alt="image" src="https://github.com/user-attachments/assets/b42e27ea-3560-49e8-b366-1e83b0ad8f5e" />
 
 ## Details
 **IF YOU HAVE A GITHUB ACCOUNT...**
