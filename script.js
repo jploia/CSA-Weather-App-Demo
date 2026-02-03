@@ -34,7 +34,9 @@ const weatherDescriptions = {
     99: "Thunderstorm with heavy hail"
 };
 
-document.getElementById("searchBtn").addEventListener("click", () => {
+// Which element will we need to access to check if it has been clicked or not? 
+// What action are we looking for (hint: it was mentioned above)
+document.getElementById("").addEventListener("", () => {
     // .trim() is like .strip() in Python; it removes all the whitespace EXCEPT only to the left side and the right side of a string
     const city = document.getElementById("cityField").value.trim();
 
@@ -91,11 +93,12 @@ async function getWeather(latitude, longitude, city, country) {
 
 // Display weather data onto the screen
 function displayWeather(weather, city, country) {
-    const weatherContainer = document.getElementById("weatherContainer");
-    const cityHeader = document.getElementById("cityName");
-    const temp = document.getElementById("temperature");
-    const condition = document.getElementById("condition");
-    const windSpeed = document.getElementById("windSpeed");
+    // Which of our elements would we want to get the id of to display on our frontend?
+    const weatherContainer = document.getElementById("");
+    const cityHeader = document.getElementById("");
+    const temp = document.getElementById("");
+    const condition = document.getElementById("");
+    const windSpeed = document.getElementById("");
 
     const weatherCondition =
     weatherDescriptions[weather.weathercode] || "Unknown Condition";
