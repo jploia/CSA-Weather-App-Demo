@@ -5,7 +5,7 @@ Hello! Learn basic HTML, CSS, and Javascript with this tutorial!
 ## Details
 **IF YOU HAVE A GITHUB ACCOUNT...**
 ```
-git clone https://github.com/jploia/CSA-Weather-App-Demo.git <NAME OF FILE>
+git clone https://github.com/jploia/CSA-Weather-App-Demo.git <NAME OF FOLDER>
 ```
 For example...
 ```
